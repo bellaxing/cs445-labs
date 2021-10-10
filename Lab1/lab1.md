@@ -9,14 +9,13 @@
 6. `git commit`
 7. `git commit –amend` (updating the last commit)
 8. `git log`
-9. `git show`
 10. `git tag`
 11. `git branch`
 12. `git checkout`
 13. `git merge`
-14. Create a conflict and solve the conflict
-15. Undo changes from a certain commit `git revert`
-16. Erase commits with `git reset`
+    1. Create a conflict and solve the conflict
+    2. Undo changes from a certain commit `git revert`
+    3. Erase commits with `git reset`
   
 **Practice with all the remote repository commands from the slides:**
 1. Create a remote repository
