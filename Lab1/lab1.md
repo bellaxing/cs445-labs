@@ -1,6 +1,6 @@
-# CS445 - Collaborative Git
-## Exercise 01
-**Practice with all the local repository commands from the slides:**
+# CS445 - Lab 1 Collaborative Git
+
+## Practice with all the local repository commands from the slides:
 1. `git init`
 2. `git status`
 3. `git diff`
@@ -17,7 +17,7 @@
     2. Undo changes from a certain commit `git revert`
     3. Erase commits with `git reset`
   
-**Practice with all the remote repository commands from the slides:**
+## Practice with all the remote repository commands from the slides:
 1. Create a remote repository
 2. `git remote`
 3. `git clone`
@@ -25,7 +25,7 @@
 5. `git fetch`
 6. `git pull`
   
-**Practice with all the third party repositories commands from the slides:**
+## Practice with all the third party repositories commands from the slides:
 Assume we are working with the following upstream: `https://github.com/bellaxing/cs445-labs`
 1. Star the repository
 2. Watch the repository for any changes
