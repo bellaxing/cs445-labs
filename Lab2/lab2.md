@@ -1,7 +1,7 @@
 # CS445 - Lab 2 Modern Web Browsers
 
 ## Write a paper about how JS engine optimize JavaScript code.
-**There is no correct answer about this lab**
+**There is many correct answers about this lab, not limited to be one**
 
 Here are some articles talking about JS engine optimize JS Code in browsers.
 1. https://mathiasbynens.be/notes/shapes-ics
