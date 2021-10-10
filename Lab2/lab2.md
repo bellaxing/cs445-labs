@@ -4,8 +4,8 @@
 **There is no correct answer about this lab**
 
 Here are some articles talking about JS engine optimize JS Code in browsers.
-https://mathiasbynens.be/notes/shapes-ics
-https://www.digitalocean.com/community/tutorials/js-v8-engine
+1. https://mathiasbynens.be/notes/shapes-ics
+2. https://www.digitalocean.com/community/tutorials/js-v8-engine
 
  
 
