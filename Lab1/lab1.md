@@ -19,8 +19,8 @@
   
 ## Practice with all the remote repository commands from the slides:
 1. Create a remote repository
-2. `git remote`
-3. `git clone`
+2. `git clone`
+3. `git remote`
 4. `git push`
 5. `git fetch`
 6. `git pull`
