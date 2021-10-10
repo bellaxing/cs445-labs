@@ -14,8 +14,8 @@
 12. `git checkout`
 13. `git merge`
     1. Create a conflict and solve the conflict
-    2. Undo changes from a certain commit `git revert`
-    3. Erase commits with `git reset`
+14. Undo changes from a certain commit `git revert`
+15. Erase commits with `git reset`
   
 ## Practice with all the remote repository commands from the slides:
 1. Create a remote repository
