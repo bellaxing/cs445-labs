@@ -9,8 +9,8 @@ function University(name, dept) {
 		 console.log(`Graduating ${this.dept} ${year} students`); 
 	} 
 } 
-var miu = new Univeristy("MIU", "Computer Science"); 
-miu.graduation(2019);
+var miu = new Univeristy("MIU", "MSD"); 
+miu.graduation(2021);
 ```
 ## Exercise 02
 Re-write the following code using TypeScript. Try to be as explicit as possible and add Types to everything you can. When you are done, transpile the TS code to JS code and inspect the JS code.
@@ -22,7 +22,7 @@ let bankAccount = {
 	} 
 }; 
 let myself = { 
-	name: "Asaad", 
+	name: "John", 
 	bankAccount: bankAccount, 
 	hobbies: ["Violin", "Cooking"] 
 }; 
