@@ -40,7 +40,7 @@ Assume we are working with the following upstream: `https://github.com/bellaxing
 12. Create a new Pull Request to the upstream repo
 
 ## What you need to submit:
-Copy and paste your github link of this homework to Sakai.
+Copy and paste your github link of this lab to Sakai.
 
 ## The below is Optional homework if you're interested in. This is self study part, not going to lecture. If you have questions, please ask TA.
 1. Create a remote repository

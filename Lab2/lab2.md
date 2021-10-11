@@ -8,6 +8,5 @@ Here are some articles talking about JS engine optimize JS Code in browsers.
 2. https://www.digitalocean.com/community/tutorials/js-v8-engine
 
  
-
-What you need to submit:
-1. Copy and paste your github link for this Lab
+## What you need to submit:
+Copy and paste your github link of this lab to Sakai.

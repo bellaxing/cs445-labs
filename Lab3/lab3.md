@@ -70,3 +70,6 @@ rectangle.calcSize = function() {
 
 console.log(rectangle.calcSize()); // 10
 ```
+
+## What you need to submit:
+Copy and paste your github link of this lab to Sakai.
