@@ -9,7 +9,7 @@ function University(name, dept) {
 		 console.log(`Graduating ${this.dept} ${year} students`); 
 	} 
 } 
-var miu = new Univeristy("MIU", "MSD"); 
+let miu = new Univeristy("MIU", "MSD"); 
 miu.graduation(2021);
 ```
 ## Exercise 02
@@ -45,7 +45,7 @@ function Car(name) {
 		this.acceleration = this.acceleration + speed; 
 	} 
 } 
-var car = new Car("BMW"); 
+let car = new Car("BMW"); 
 car.honk(); // BMW is saying: Toooooooooot!
 console.log(car.acceleration); // 0
 car.accelerate(60); 
@@ -55,11 +55,11 @@ console.log(car.acceleration); // 60
 Re-write the following code using TypeScript Class syntax. Try to be as explicit as possible and add Types to everything you can. When you are done, transpile the TS code to JS code and inspect the JS code.
 
 ```javascript
-var baseObject = { 
+let baseObject = { 
 	width: 0, 
 	length: 0 
 }; 
-var rectangle = Object.create(baseObject); 
+let rectangle = Object.create(baseObject); 
 
 rectangle.width = 5; 
 rectangle.length = 2; 
