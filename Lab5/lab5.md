@@ -1,12 +1,10 @@
 # CS445 - Lab 5 Intro to Asynchronous programming & Promise
 
-## Question 01
-Change `isPrime()` that takes in a single number parameter and returns a new promise.  
+## Exercise 01
+Change `isPrime` function below that takes in a single number parameter and returns a new promise.  
 Using setTimeout and after 500 milliseconds, the promise will either resolove or reject.  
 if the input is prime number, the promise resolves with `{prime: true}`.  
 if the input is not a prime number, it rejects with `{prime: false}`.  
-  
-Write code and call your promisified function and test it for both scenarios (resolve and reject)
   
 You may use the following function to determine if the number is prime or not
 ```javascript
@@ -16,9 +14,26 @@ const isPrime = num => {
     return num > 1;
 }
 ```
+When you finish, test using the code below:
+```javascript
+console.log('start');
+isPrime(7)
+    .then(res => console.log(res))
+    .catch(err => console.error(err));
+console.log('end');
 
-## Question 02
-Remember `removeDuplicates()` method that you wrote earlier? Currently this method runs synchronously. Rewrite an asynchronous version of it `removeDuplicatedAsync()` as following:
+// Output:
+// start
+// end
+// { isPrime: false }
+```
+
+## Exercise 02
+Create a method named `removeDuplicatesAsync` which works only for Array types and removes all duplicates for any array asynchornously. When you finish, test using the code below:
+
+*** NOTE: If you use Promise, the promise is already resolved inside the method which is different from previous exercise ***
+*** Optional: You can try to implement use async&await ***
+
 ```javascript
 console.log(`start`);
 [4, 1, 5, 7, 2, 3, 1, 4, 6, 5, 2].removeDuplicatesAsync(); 
