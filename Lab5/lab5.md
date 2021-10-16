@@ -25,7 +25,7 @@ console.log('end');
 // Output:
 // start
 // end
-// { isPrime: false }
+// { isPrime: true }
 ```
 
 ## Exercise 02
