@@ -25,7 +25,7 @@ console.log('end');
 // Output:
 // start
 // end
-// { isPrime: true }
+// { prime: true }
 ```
 
 ## Exercise 02
