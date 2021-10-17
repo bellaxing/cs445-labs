@@ -13,4 +13,5 @@ Read [Random User APIs](https://randomuser.me/documentation#howto), then create 
 The below is an example of the appearance of the html page. You don't need to have the same style. The importance is the feature.
 
 ![Employee List](1.jpg)
+
 ![Employee List](2.jpg)
