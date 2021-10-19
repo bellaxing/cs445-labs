@@ -12,6 +12,8 @@ Read [Random User APIs](https://randomuser.me/documentation#howto), then create 
 
 The below is an example of the appearance of the html page. You don't need to have the same style. The importance is the feature.
 
+## Screenshot 1
 ![Employee List](1.png)
 
+## Screenshot 2
 ![Employee List](2.png)
