@@ -8,3 +8,5 @@
 6. [Lab 6 - async&await](Lab6/lab6.md)
 7. [Lab 7 - fetch](Lab7/lab7.md)
 8. [Lab 8 - RXJS](Lab8/lab8.md)
+9. [Lab 9 - Design Pattern 1](Lab9/lab9.md)
+10. [Lab 10 - Design Pattern 2](Lab10/lab10.md)
