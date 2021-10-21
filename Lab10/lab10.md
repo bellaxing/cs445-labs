@@ -1,29 +1,28 @@
-# MWP-CS445-Design-Patterns-01
+# CS445 - Lab 9 Design Pattern 2
 
 ## Exercise 01
-Use the Module pattern to create a shopping cart that has one **private immutable** member: `basket[]`, and the following public methods: 
-* `upsertItem()` add a product to basket if doesn't exist, or update if exist.
-* `getItemsCount()` returns back the number of products in the basket.
-* `getTotalPrice()` calculates the total price, taking in consideration the count of products.
-* `removeItemById(id)` removes a product from the basket.
-Every product item has the following structure:
-```javascript
-Product = {id: 0, name: 'Coffee', description: 'Coffee Grounds from Ethiopia', price: 9.5, count: 1}
-```
-**Note:** One instance of this module should be allowed per application.  
-
+Implement the Factory pattern and create two types of light bulbs, regular bulbs and energy saver bulbs. 
+* Regular bulbs have a range of lumens between 50 and 100 and last for 1 year. 
+* Energy saver bulbs have a range of lumens between 5 and 40 and last for 10 years and comes in multiple colors.  
+  
 ## Exercise 02
-Write an implementation for the Observer Pattern where observers have the following format: `{'event': [observers]}`  
-For example:
+Implement the Decorator pattern to add a logger to any object (add behavior). A logger method will log a message to the `console`.
+  
+## Exercise 03
+Implement the Strategy pattern to choose between different logging algorithms, choosing between:
+* `console.info()`
+* `console.warn()`
+* `console.error()`
+* `console.table()`  *accepts an array of objects*
+  
+## Exercise 04
+Create a memoized version of the following `fibonacci()` recursive method to improve its performance.
 ```javascript
-{
-   'eat': [function1, function2],
-   'study': [function3, function4, function5]
+function fibonacci(n) {
+    if (n <= 1) {
+        return 1
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 ```
-This Observable/Subject should be used as following:
-```javascript
-.on('eat', function1) // register an observer
-.on('eat', function2) // register an observer
-.emit('eat') // all observers (function1, and function2) should be invoked
-```
+You may use `console.time(label)` and `console.timeEnd(label)` to measure the difference in performance.

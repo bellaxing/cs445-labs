@@ -1,4 +1,4 @@
-# MWP-CS445-Design-Patterns-01
+# CS445 - Lab 9 Design Pattern 1
 
 ## Exercise 01
 Use the Module pattern to create a shopping cart that has one **private immutable** member: `basket[]`, and the following public methods: 
