@@ -40,9 +40,29 @@ For example:
    'study': [function3, function4, function5]
 }
 ```
-This Observable/Subject should be used as following:
+This Observable/Subject has two methods:
+`on(event, fn)`: register an observer
+
+`emit(event, message)`: when this method is called, all observers should be invoked
+
+Once you finish, use the following code to test:
 ```javascript
-.on('eat', function1) // register an observer
-.on('eat', function2) // register an observer
-.emit('eat') // all observers (function1, and function2) should be invoked
+const subject = new Subject();
+subject.on('eat', console.log); // register an observer
+subject.on('study', console.log); // register an observer
+
+function foo(msg) {
+    console.log('foo: ' + msg);
+}
+subject.on('eat', foo);
+subject.on('study', foo);
+
+subject.emit('eat', 'Corn');
+//output for Line above: subject.emit('eat', 'Corn');
+// Corn
+// foo: Corn
+subject.emit('study', 'cs445');
+//output for Line above: subject.emit('study', 'cs445');
+// cs445
+// foo: cs445
 ```
