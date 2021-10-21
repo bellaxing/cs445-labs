@@ -41,6 +41,7 @@ For example:
 }
 ```
 This Observable/Subject has two methods:
+
 `on(event, fn)`: register an observer
 
 `emit(event, message)`: when this method is called, all observers should be invoked
