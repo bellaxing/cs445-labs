@@ -11,7 +11,7 @@ const bulbs = [];
 const factory = new Factory();
 
 bulbs.push(factory.createBulb("regular"));
-bulbs.push(factory.createBulb("energy"));
+bulbs.push(factory.createBulb("energy", "red"));
 
 
 for (let i = 0, len = bulbs.length; i < len; i++) {
