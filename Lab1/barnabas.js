@@ -1,1 +1,1 @@
-// this is sample file
+console.log("Hello, Professor!!!");
