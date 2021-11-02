@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+      id="img1"
+      width="30%"
+    />
+    <img
+      src="https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+      id="img2"
+      width="30%"
+    />
+    <button id="btn">swap</button>
+  </body>
+  <script>
+    let img1 = document.getElementById("img1");
+    let img2 = document.getElementById("img2");
+    let btn = document.getElementById("btn");
+    btn.onclick = function () {
+      img1.src =
+        "https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500";
+      img2.src =
+        "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500";
+    };
+  </script>
+</html>

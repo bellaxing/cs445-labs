@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" id="first" /> + <input type="number" id="second" /> =
+    <input type="text" id="text" />
+    <input type="submit" id="submit" />
+  </body>
+  <script>
+    let first = document.getElementById("first");
+    let second = document.getElementById("second");
+    document.getElementById("submit").onclick = function () {
+      document.getElementById("text").value =
+        Number(first.value) + Number(second.value);
+    };
+  </script>
+</html>
