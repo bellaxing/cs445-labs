@@ -1,4 +1,4 @@
-# CS445 - Lab 5 Intro to Asynchronous programming & Promise
+# CS445 - Intro to Asynchronous programming & Promise
 
 ## Exercise 01
 Change `isPrime` function below that takes in a single number parameter and returns a new promise.  
