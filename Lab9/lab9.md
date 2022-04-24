@@ -1,4 +1,4 @@
-# CS445 - Lab 9 Design Pattern 1
+# CS445 - Design Pattern 1
 
 ## Exercise 01
 Use the Module pattern to create a shopping cart that has one **private** member: `basket` which is an Array, and the following public methods: 
