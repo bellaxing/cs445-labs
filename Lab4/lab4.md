@@ -1,4 +1,4 @@
-# CS445 - Lab 4 JS DOM
+# CS445 - JS DOM
 ## Exercise 01
 1. Create a `swap.html` page which has 2 pictures and 1 button on it.
 2. You can use any picture you want.
