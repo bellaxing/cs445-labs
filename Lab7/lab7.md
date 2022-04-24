@@ -1,4 +1,4 @@
-# CS445 - Lab 7 fetch
+# CS445 - fetch
 
 Today's lab is used to practice using `fetch` to get data from sever side. Since we haven't learnt how to create server side, we choose [Random User APIs](https://randomuser.me/documentation#howto) which is a free and easy to use service to generate random user data for application testing. 
 
