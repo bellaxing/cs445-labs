@@ -1,4 +1,4 @@
-# CS445 - Lab 10 Design Pattern 2
+# CS445 - Design Pattern 2
 
 ## Exercise 01
 Implement Factory Method pattern to create two types of light bulbs: regular bulbs and energy saver bulbs. 
