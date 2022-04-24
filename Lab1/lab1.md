@@ -1,4 +1,4 @@
-# CS445 - Lab 1 Collaborative Git
+# CS445 - Collaborative Git
 
 ## Practice with all the local repository commands from the slides:
 1. `git init`
