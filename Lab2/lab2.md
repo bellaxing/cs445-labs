@@ -1,4 +1,4 @@
-# CS445 - Lab 2 Modern Web Browsers
+# CS445 - Modern Web Browsers
 
 ## Write a paper about how JS engine optimize JavaScript code.
 **There is many correct answers about this lab, not limited to be one**
