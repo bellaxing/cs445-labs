@@ -1,4 +1,4 @@
-# CS445 - Lab 6 async&await
+# CS445 - async&await
 
 ## Exercise 01
 Based on the `isPrime` function below which is the solution of yesterday's solution for Exercise 01, create a new function named `isPrimeAsync` which use async&await keywords to resolve the `isPrime` function.
