@@ -10,3 +10,4 @@
 9. [Lab 8 - async&await](Lab6/lab6.md)
 10. [Lab 9 - fetch](Lab7/lab7.md)
 11. [Lab 10 - RXJS](Lab8/lab8.md)
+12. Exercises
