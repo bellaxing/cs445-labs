@@ -57,6 +57,7 @@ strategy.logging(['table', 'table']);
   
 ## Exercise 04
 Create a memoized version of the following `fibonacci()` recursive method to improve its performance.
+**Additional Requirements: No variables leaking to global scope and use Object instead Map as cache data structure**
 ```javascript
 function fibonacci(n) {
     if (n <= 1) {
